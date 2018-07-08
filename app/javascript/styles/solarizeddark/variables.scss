@@ -1,4 +1,5 @@
-$ui-simple-bg-contrast: $ui-primary-color // Contrast color for elements too bright for $simple-background-color
+$ui-simple-bg-contrast: $ui-primary-color;
+
 $primary-text-color: lighten(#93A1A1, 25%);
 $ui-base-color: #002B36;
 $ui-base-lighter-color: lighten($ui-base-color, 30%);
