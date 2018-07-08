@@ -1,9 +1,3 @@
-$ui-base-color: #111111;
-$ui-secondary-color: #7c818c;
-$ui-primary-color: #EBDC98;
-$ui-secondary-color: #EBDC98;
-$ui-highlight-color: #CC575D;
-$ui-simple-bg-contrast: lighten($ui-base-color, 30%);
-$gold-star: $ui-highlight-color;
-
+@import './darkest/variables';
 @import 'application';
+@import './darkest/diff';

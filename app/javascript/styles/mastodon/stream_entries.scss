@@ -7,7 +7,7 @@
 
     .detailed-status.light,
     .status.light {
-      border-bottom: 1px solid $ui-simple-bg-contrast;
+      border-bottom: 1px solid $ui-secondary-color;
       animation: none;
     }
 
@@ -83,8 +83,7 @@
         font-size: 14px;
 
         .status__relative-time {
-          color: $ui-simple-bg-contrast;
-          font-weight: bold;
+          color: $ui-primary-color;
         }
       }
     }
@@ -134,7 +133,7 @@
 
       span {
         font-size: 14px;
-        color: $ui-simple-bg-contrast;
+        color: $ui-primary-color;
       }
     }
 
@@ -191,7 +190,7 @@
 
         span {
           font-size: 14px;
-          color: $ui-simple-bg-contrast;
+          color: $ui-primary-color;
         }
       }
     }
@@ -225,7 +224,7 @@
 
     .detailed-status__meta {
       margin-top: 15px;
-      color: $ui-simple-bg-contrast;
+      color: $ui-primary-color;
       font-size: 14px;
       line-height: 18px;
 

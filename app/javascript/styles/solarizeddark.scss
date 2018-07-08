@@ -1,14 +1,4 @@
 // Turn your face to the sun and the shadows will fall behind you.
-
-$primary-text-color: lighten(#93A1A1, 25%);
-
-$ui-base-color: #002B36;
-$ui-base-lighter-color: lighten($ui-base-color, 30%);
-$ui-primary-color: #93A1A1;
-$ui-secondary-color: #2AA198;
-$ui-highlight-color: #6C71C4;
-$ui-simple-bg-contrast: #6C71C4;
-
-$gold-star: #CB4B16;
-
+@import './solarizeddark/variables';
 @import 'application';
+@import './solarizeddark/diff';

@@ -1,9 +1,3 @@
-$ui-base-color: #383c4a;
-$ui-secondary-color: #7c818c;
-$ui-primary-color: $ui-secondary-color;
-$ui-secondary-color: #CC575D;
-$ui-highlight-color: #5294e2;
-$ui-simple-bg-contrast: lighten($ui-base-color, 30%);
-$gold-star: $ui-highlight-color;
-
+@import './arcdark/variables';
 @import 'application';
+@import './arcdark/diff';

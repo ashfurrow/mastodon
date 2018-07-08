@@ -1,0 +1,9 @@
+$ui-simple-bg-contrast: $ui-primary-color // Contrast color for elements too bright for $simple-background-color
+$ui-base-color: #0E2333;
+$ui-secondary-color: #E4E6DA;
+$ui-primary-color: #EBDC98;
+$ui-highlight-color: #398CCC;
+$error-value-color: #FF003C;
+$valid-value-color: #A8BF34;
+$ui-simple-bg-contrast: lighten($ui-base-color, 30%);
+$gold-star: #EBDC98;

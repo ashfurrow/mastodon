@@ -524,7 +524,7 @@
 
   .compose-form__buttons-wrapper {
     padding: 10px;
-    background: $ui-base-color;
+    background: darken($simple-background-color, 8%);
     border-radius: 0 0 4px 4px;
     display: flex;
     justify-content: space-between;
@@ -563,7 +563,7 @@
         font-family: 'mastodon-font-sans-serif', sans-serif;
         font-size: 14px;
         font-weight: 600;
-        color: lighten($ui-primary-color, 33%);
+        color: lighten($ui-base-color, 12%);
 
         &.character-counter--over {
           color: $warning-red;
@@ -1579,7 +1579,7 @@
     &:focus,
     &:hover,
     &:active {
-      background: darken($ui-secondary-color, 20%);
+      background: $ui-highlight-color;
       color: $ui-secondary-color;
       outline: 0;
     }
@@ -4767,12 +4767,12 @@ a.status-card {
   padding: 10px 14px;
   padding-bottom: 14px;
   margin-top: 10px;
-  color: $ui-simple-bg-contrast;
+  color: $ui-primary-color;
   box-shadow: 2px 4px 15px rgba($base-shadow-color, 0.4);
 
   h4 {
     text-transform: uppercase;
-    color: $ui-simple-bg-contrast;
+    color: $ui-primary-color;
     font-size: 13px;
     font-weight: 500;
     margin-bottom: 10px;

@@ -1,0 +1,75 @@
+// mastodon/accounts.scss
+.activity-stream-tabs {
+  border-bottom: 1px solid $ui-simple-bg-contrast;
+}
+
+// mastodon/components.scss
+.compose-form {
+  .compose-form__buttons-wrapper {
+    background: $ui-base-color;
+    .character-counter__wrapper {
+      .character-counter {
+        color: lighten($ui-primary-color, 33%);
+      }
+    }
+  }
+}
+
+.dropdown-menu__item {
+    a {
+      &:focus,
+      &:hover,
+      &:active {
+        background: darken($ui-secondary-color, 20%);
+    }
+  }
+}
+
+.search-popout {
+  color: $ui-simple-bg-contrast
+  h4 {
+    color: $ui-simple-bg-contrast;
+  }
+}
+
+// mastodon/emoji_picker.scss
+
+.emoji-mart-anchors {
+  color: $ui-simple-bg-contrast;
+}
+
+// mastodon/stream_entries.scss
+
+.activity-stream {
+  .entry {
+    .detailed-status.light,
+    .status.light {
+      border-bottom: 1px solid $ui-simple-bg-contrast;
+    }
+    .status.light {
+      .status__header {
+        .status__meta {
+          .status__relative-time {
+            color: $ui-simple-bg-contrast;
+            font-weight: bold;
+          }
+        }
+      }
+      .display-name {
+        span {
+          color: $ui-simple-bg-contrast;
+        }
+      }
+    }
+    .detailed-status.light {
+      .display-name {
+        span {
+          color: $ui-simple-bg-contrast;
+        }
+      }
+      .detailed-status__meta {
+        color: $ui-simple-bg-contrast;
+      }
+    }
+  }  
+}
